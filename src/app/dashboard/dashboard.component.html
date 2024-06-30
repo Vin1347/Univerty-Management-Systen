@@ -1,0 +1,46 @@
+<nav class="navbar">
+    <div class="navbar-brand"> 
+      <a routerLink="/dashboard" routerLinkActive="active" ariaCurrentWhenActive="page">University Mangement System</a>
+    </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/my-dashboard" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Dashboard</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/contact" class="nav-link">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="dashboard-container">
+    <h2>Dashboard</h2>
+    <p class="welcome-message">Welcome, {{ username }}!</p>
+  
+    <div class="stats-cards">
+      <div class="card" (click)="navigateTo('courses')">
+        <h3>Courses</h3>
+        <p>View your Course information.</p>
+      </div>
+      <div class="card" (click)="navigateTo('academics')">
+        <h3>Academics</h3>
+        <p>Check your academic performance.</p>
+      </div>
+      <div class="card" (click)="navigateTo('timetable')">
+        <h3>Timetable</h3>
+        <p>View your class schedule.</p>
+      </div>
+    </div>
+  
+    <div class="announcements">
+  <h3>Announcements</h3>
+  <ul>
+    <li><a href="#" onclick="handleClick('Academic announcements: Course registration deadlines, changes to the academic calendar, new degree programs, scholarship opportunities.')">Academic announcements: Course registration deadlines, changes to the academic calendar, new degree programs, scholarship opportunities.</a></li>
+    <li><a href="#" onclick="handleClick('Events and activities:  Upcoming lectures, workshops, conferences, social events, sporting events.')">Events and activities:  Upcoming lectures, workshops, conferences, social events, sporting events.</a></li>
+    <li><a href="#" onclick="handleClick('Student life announcements: New clubs or organizations, job opportunities, volunteer opportunities, student government elections.')">Student life announcements: New clubs or organizations, job opportunities, volunteer opportunities, student government elections.</a></li>
+  </ul>
+</div>
+  </div>
+  
