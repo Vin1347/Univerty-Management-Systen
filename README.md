@@ -27,9 +27,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 #ScreenShot
-![Screenshot 2024-06-30 152305](https://github.com/Vin1347/Univerty-Management-Systen/assets/173452144/aa8b8b06-b3f0-4f58-9a58-ccf420a39a70)
-![Screenshot 2024-06-30 152328](https://github.com/Vin1347/Univerty-Management-Systen/assets/173452144/30d735a1-45ec-498c-b168-621fb71d984a)
-![Screenshot 2024-06-30 152344](https://github.com/Vin1347/Univerty-Management-Systen/assets/173452144/9f2f7303-f839-429d-a874-6a4588eb2e63)
+![Screenshot 2024-07-01 235446](https://github.com/Vin1347/Univerty-Management-Systen/assets/173452144/f2c3c4a8-0c96-4033-8463-ccb0ec2c08c3)
+![Screenshot 2024-07-01 235414](https://github.com/Vin1347/Univerty-Management-Systen/assets/173452144/32857e6d-7cda-43f7-9e5c-534e896df255)
+![Screenshot 2024-07-01 235745](https://github.com/Vin1347/Univerty-Management-Systen/assets/173452144/4c942a3f-0dda-423a-8f13-052d24618d0a)
+![Screenshot 2024-07-01 235940](https://github.com/Vin1347/Univerty-Management-Systen/assets/173452144/7581f988-35e7-46dc-b518-111bcb5d162b)
+![Screenshot 2024-07-02 000029](https://github.com/Vin1347/Univerty-Management-Systen/assets/173452144/630dd4d1-ed76-4c83-a373-a00a5cbed132)
+
+
+
 
 
 
