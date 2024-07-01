@@ -18,7 +18,7 @@ export class HomepageComponent {
    constructor(private router: Router) {}
 
    onLogin() {
-  
+    console.log('Login button clicked!');
     localStorage.setItem('username', this.username);
     this.router.navigate(['/my-dashboard'],{ queryParams: { username: this.username } });
    }
